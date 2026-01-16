@@ -1,0 +1,16 @@
+
+###
+GET  http://127.0.0.1:8000/api/setting/
+  
+###
+GET  http://127.0.0.1:8000/api/pages/
+  
+###
+POST http://127.0.0.1:8000/api/contact/
+Content-Type: application/json
+
+{
+    "name":"myfullname",
+    "email":"anmamun@gmail.com",
+    "message": "Test"
+}
